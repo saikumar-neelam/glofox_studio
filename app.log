@@ -1,0 +1,4 @@
+ERROR: 2025/02/12 01:13:26 booking_handler.go:53: {Invalid Data ClassName is missing or invalid 400}
+INFO: 2025/02/12 01:13:44 class_handler.go:74: Successfully created the class with classname yoga from 2025-02-13 00:00:00 +0000 UTC to 2025-02-28 00:00:00 +0000 UTC
+INFO: 2025/02/12 01:14:57 class_handler.go:74: Successfully created the class with classname yoga from 2025-02-13 00:00:00 +0000 UTC to 2025-02-28 00:00:00 +0000 UTC
+INFO: 2025/02/12 01:15:00 booking_handler.go:101: Booking for class Yoga confirmed for user Sai Kumar on 2025-02-14 00:00:00 +0000 UTC

@@ -16,14 +16,15 @@ Before setting up the project, ensure you have the following installed:
 
 1. **Clone the repository:**
     ```
-    bash
     git clone https://github.com/saikumar-neelam/glofox_studio.git
+
     cd glofox_studio
     ```
 
 2. **Initialize Go Modules:**
     ```
     If there are no go.mod and go.sum files, then initialize as per below statment
+
     go mod init github.com/saikumar-neelam/glofox_studio
     ```
 
@@ -32,6 +33,20 @@ Before setting up the project, ensure you have the following installed:
     Run below command to download and install all go dependencies
 
     go mod tidy
+    ```
+
+4. **Run the Application:**
+    ```
+    To run the application, use the following command:
+
+    go run cmd/glofox/main.go
+    ```
+
+5. **Running Unit Tests::**
+    ```
+    To run unit tests, use the following command:
+
+    go test ./...
     ```
 
 ## Folder Structure
@@ -65,4 +80,10 @@ Request body:
   "member_name": "Sai Kumar",
   "class_date": "2025-02-15"
 }
-# glofox_studio
+```
+
+### GET `/bookings/{bookingDate(YYYY-MM-DD)}`
+Retrieve the number of bookings done on particular date for different classes.**(Optional Developed for testing)**
+
+Request body:
+None
